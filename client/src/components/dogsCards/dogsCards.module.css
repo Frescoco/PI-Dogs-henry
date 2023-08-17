@@ -1,0 +1,61 @@
+.containerCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 80%;
+    height: 730px;
+    background: linear-gradient(180deg, #FFD398 0%, #FFE3BD 50%, #FAEBD7 100%);
+}
+
+.containerSelect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 80px;
+}
+
+.containerSelect select {
+    cursor: pointer;
+    width: 125px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 770px;
+}
+
+.containerPaginated {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 15%;
+    height: 80px;
+    background-color: transparent;
+}
+
+.containerPaginated button {
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    background-size: 100% 100%;
+}
+
+.buttonPrev{
+    background-image: url(../../Images/Icon-Prev.png);
+}
+
+.buttonNext {
+    background-image: url(../../Images/Icon-Next.png);
+}
+
+.containerPaginated button:hover {
+    border-bottom: 1px solid black;
+    height: 31px;
+}

@@ -1,0 +1,68 @@
+.containerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 80%;
+    height: 140px;
+    background-color: #FFD398;
+}
+
+.containerTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    height: 140px;
+}
+
+.title {
+    margin-left: 25px;
+    border-bottom: 1px solid black;
+    user-select: none;
+    color: #000;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.image {
+    margin-left: 25px;
+    width: 40px;
+    height: 40px;
+}
+
+.containerSearch {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 140px; 
+}
+
+.searchBar {
+    width: 45%;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    display: contents;
+}
+
+.createDog {
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 35px;
+    background: linear-gradient(135deg, #F198FF 11.76%, #FFD69E 52.56%, #FFF 83.79%);
+}
+
+.exitPage {
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 25px;
+    background-image: url(../../Images/log-out.png);
+    background-size: 100% 100%;
+    background-color: #FFD398;
+}

@@ -1,0 +1,46 @@
+.containenLandingPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 785px;
+    overflow: visible;
+    background-image: url('../../Images/michael-oxendine-t7wwffh6x8E-unsplash.jpg');
+    background-size: 100% 100%;
+}
+
+.title {
+    user-select: none;
+    font-size: 50px;
+    opacity: 0;
+    animation: fadeInUp 3s forwards;
+    color: rgb(255, 255, 255);
+}
+
+.buttonAccess {
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(247, 222, 190);
+    opacity: 0;
+    animation: fadeInUp 3s forwards;
+}
+
+.buttonAccess:hover {
+    color: rgb(197, 175, 145);
+}
+
+@keyframes fadeInUp {
+    0% {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
